@@ -20,10 +20,12 @@ Here are some key takeaways:
 
 ## Code Example
 
-Here's a simple code example:
+Here's a simple code example that creates a plot:
 
-```python
-# Example code - set eval to true to run
+```{python}
+#| echo: true
+#| warning: false
+
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -33,12 +35,17 @@ data = pd.DataFrame({
     'y': [2, 4, 6, 8, 10]
 })
 
-plt.plot(data['x'], data['y'])
+# Create the plot
+plt.figure(figsize=(8, 5))
+plt.plot(data['x'], data['y'], marker='o', linewidth=2, markersize=8)
 plt.title('My First Plot')
 plt.xlabel('X values')
 plt.ylabel('Y values')
+plt.grid(True, alpha=0.3)
 plt.show()
 ```
+
+You can see the plot rendered above! The code executed and generated the visualization.
 
 ## Conclusion
 
