@@ -17,7 +17,7 @@ Welcome to your Data Ethics and Practicum portfolio project! This guide will hel
 
 ### Step 1: Accept the GitHub Classroom Assignment
 
-1. Click on the assignment link provided by your instructor
+1. Click on the assignment link provided by Dr. Poulsen
 2. Accept the assignment - GitHub will create a personal repository for you
 3. Wait for the repository to be created (this may take a minute)
 
@@ -350,6 +350,6 @@ If you encounter issues:
 2. Review the [Quarto documentation](https://quarto.org/)
 3. Ask questions in class or office hours
 4. Post in the course discussion forum
-5. Email your instructor
+5. Email Dr. Poulsen
 
 Good luck with your portfolio! 🎓

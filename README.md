@@ -60,12 +60,14 @@ git push origin main
 
 - Check the [Student Guide](STUDENT_GUIDE.md) troubleshooting section
 - Review the [Quarto Reference](QUARTO_REFERENCE.md)
-- Contact your instructor during office hours
+ - [Contact Dr. Poulsen for office hours](https://outlook.office.com/bookwithme/user/f78874d353574c549378ea832faf2ae7@washcoll.edu?anonymous&ep=plink)
 
 ---
 
 ## 🙏 Acknowledgments
 
 This template uses the [quarto-codespaces](https://github.com/mcanouil/quarto-codespaces) devcontainer configuration by Mickaël Canouil.
+
+Portions of this project were created with the assistance of GitHub Copilot prompts.
 
 Built with [Quarto](https://quarto.org/) - An open-source scientific and technical publishing system.
