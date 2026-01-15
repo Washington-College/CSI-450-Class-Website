@@ -1,0 +1,21 @@
+---
+title: "Welcome to My Portfolio"
+---
+
+## About This Site
+
+Welcome! This is my portfolio website for the Data Ethics and Practicum class at Washington College. Here you'll find my blog posts, projects, and resume.
+
+## Recent Work
+
+Check out my [Blog](blog.qmd) for the latest posts about data science, ethics, and my practicum projects.
+
+## Quick Links
+
+- [Blog](blog.qmd) - Read my latest posts
+- [Resume](resume.qmd) - View my experience and skills
+- [About](about.qmd) - Learn more about me
+
+---
+
+*This site was built using [Quarto](https://quarto.org/), an open-source scientific and technical publishing system.*

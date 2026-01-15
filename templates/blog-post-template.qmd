@@ -1,0 +1,98 @@
+---
+title: "Your Blog Post Title"
+author: "Your Name"
+date: "2026-01-15"  # Update with today's date
+categories: [category1, category2, category3]  # Choose relevant categories
+image: "image.jpg"  # Optional: add a cover image
+draft: false  # Set to true to hide from the blog until ready
+---
+
+## Introduction
+
+Start with a brief introduction. What is this post about? Why is it important or interesting?
+
+## Background
+
+Provide any necessary context. What concepts should readers understand before diving in?
+
+## Main Content
+
+This is where your main content goes. Break it into logical sections with clear headings.
+
+### Code Example
+
+Show your work with code blocks:
+
+```{python}
+#| echo: true
+#| code-fold: false
+#| warning: false
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Your code here
+data = pd.DataFrame({
+    'x': [1, 2, 3, 4, 5],
+    'y': [2, 4, 6, 8, 10]
+})
+
+plt.figure(figsize=(8, 5))
+plt.plot(data['x'], data['y'], marker='o')
+plt.title('Your Plot Title')
+plt.xlabel('X Label')
+plt.ylabel('Y Label')
+plt.grid(True, alpha=0.3)
+plt.show()
+```
+
+### Analysis
+
+Explain what your code does and what the results mean:
+
+- **Key Finding 1**: Explain your first observation
+- **Key Finding 2**: Explain your second observation
+- **Key Finding 3**: Explain your third observation
+
+## Ethical Considerations
+
+For a data ethics class, consider including:
+
+- What ethical issues does this project raise?
+- Who might be affected by this work?
+- What are the potential risks or benefits?
+- How did you address ethical concerns?
+
+## Challenges and Solutions
+
+What difficulties did you encounter? How did you overcome them?
+
+::: {.callout-tip}
+## Tip
+Share a helpful tip or insight you learned while working on this project.
+:::
+
+## Conclusion
+
+Summarize your main points. What did you learn? What's next?
+
+## References
+
+If you used external sources, cite them here:
+
+1. Author Name. (Year). *Title*. URL
+2. Another Source. (Year). *Title*. URL
+
+---
+
+## Discussion Questions
+
+Consider ending with questions for reflection:
+
+1. Question 1?
+2. Question 2?
+3. Question 3?
+
+---
+
+*Tags: #DataEthics #DataScience #Python #Analysis*

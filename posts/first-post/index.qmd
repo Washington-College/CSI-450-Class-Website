@@ -1,0 +1,45 @@
+---
+title: "My First Blog Post"
+author: "Your Name"
+date: "2026-01-15"
+categories: [data science, getting started]
+image: "image.jpg"
+---
+
+## Introduction
+
+This is my first blog post! In this post, I'll share...
+
+## What I Learned
+
+Here are some key takeaways:
+
+1. First point
+2. Second point
+3. Third point
+
+## Code Example
+
+Here's a simple code example:
+
+```{python}
+#| echo: true
+#| eval: false
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Your code here
+data = pd.DataFrame({
+    'x': [1, 2, 3, 4, 5],
+    'y': [2, 4, 6, 8, 10]
+})
+
+plt.plot(data['x'], data['y'])
+plt.title('My First Plot')
+plt.show()
+```
+
+## Conclusion
+
+In this post, we explored... Stay tuned for more posts!

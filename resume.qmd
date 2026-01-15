@@ -1,0 +1,74 @@
+---
+title: "Resume"
+---
+
+## Your Name
+
+[youremail@example.com](mailto:youremail@example.com) | [GitHub](https://github.com/yourusername) | [LinkedIn](https://linkedin.com/in/yourprofile)
+
+---
+
+## Education
+
+**Washington College** | Chestertown, MD  
+*Bachelor of Arts/Science in [Your Major]* | Expected Graduation: [Year]
+
+- Relevant Coursework: Data Ethics and Practicum, [Other Courses]
+- GPA: [Your GPA]
+
+---
+
+## Skills
+
+**Programming Languages:** Python, R, SQL  
+**Data Tools:** Pandas, NumPy, Matplotlib, Seaborn, ggplot2  
+**Technologies:** Git, Jupyter, Quarto, GitHub  
+**Other:** Data Analysis, Data Visualization, Statistical Modeling
+
+---
+
+## Projects
+
+### Project Title 1
+*[Date Range]*
+
+- Brief description of what you did
+- Technologies used: Python, Pandas, Matplotlib
+- Key achievements or outcomes
+
+### Project Title 2
+*[Date Range]*
+
+- Brief description of what you did
+- Technologies used: R, ggplot2, dplyr
+- Key achievements or outcomes
+
+---
+
+## Experience
+
+### Position Title
+*Organization Name | Location | [Date Range]*
+
+- Describe your responsibilities and achievements
+- Quantify results when possible
+- Focus on data-related work
+
+### Position Title
+*Organization Name | Location | [Date Range]*
+
+- Describe your responsibilities and achievements
+- Quantify results when possible
+- Focus on data-related work
+
+---
+
+## Activities & Leadership
+
+- List relevant clubs, organizations, or volunteer work
+- Include leadership positions
+- Highlight any data or tech-related activities
+
+---
+
+*Download PDF version: [resume.pdf](resume.pdf)*

@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "My Portfolio"
+  description: "Data Ethics and Practicum Portfolio"
+  navbar:
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Blog"
+        href: blog.qmd
+      - text: "Resume"
+        href: resume.qmd
+      - text: "About"
+        href: about.qmd
+    right:
+      - icon: github
+        href: https://github.com/yourusername
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    code-copy: true
+    code-fold: false
