@@ -7,42 +7,38 @@ When you run code in a Quarto document (`.qmd` file), you might see:
 ModuleNotFoundError: No module named 'pandas'
 ```
 
-This happens because Quarto's Python engine may use a different Python environment than your terminal.
+This happens because Quarto's Python engine needs packages installed in the user's Python environment.
 
 ## The Solution
 
-Run this command in the terminal to install packages for the correct Python:
+**Best Method (Works in Codespaces):**
 
 ```bash
-python3 -m pip install -r requirements.txt
+python3 -m pip install --user pandas matplotlib numpy seaborn plotly scikit-learn
 ```
 
-Or install specific packages:
+Or install from requirements.txt:
 
 ```bash
-python3 -m pip install pandas matplotlib numpy seaborn
+python3 -m pip install --user -r requirements.txt
 ```
 
-## Why This Works
+**The `--user` flag is important** - it installs packages in your user directory where Quarto can find them.
 
-- `python3 -m pip` ensures packages are installed for the same Python that Quarto uses
-- Regular `pip install` might install to a different Python environment
+## After Installation
+
+1. Stop any running preview (press Ctrl+C in the terminal)
+2. Run `quarto preview` again
+3. Your Python code should now work!
 
 ## For New Codespaces
 
-The `.devcontainer/devcontainer.json` has been updated to automatically run:
-```
-python3 -m pip install -r requirements.txt
-```
-
-This means students creating new Codespaces won't have this issue.
+The `.devcontainer/devcontainer.json` automatically runs the installation command when the Codespace is created, so this should just work for new users.
 
 ## Quick Test
 
-After installation, verify it works:
+After installation, verify packages are available:
 
 ```bash
-python3 -c "import pandas; print('Success!')"
+python3 -c "import pandas, matplotlib; print('✓ Packages installed successfully!')"
 ```
-
-Then try rendering your Quarto document again.

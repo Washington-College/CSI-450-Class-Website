@@ -46,7 +46,7 @@ Once the Codespace opens:
 5. Check Quarto: `quarto check`
 6. You should see green checkmarks ✓ indicating everything is installed correctly
 
-**Note:** If you need to reinstall packages later, run: `python3 -m pip install -r requirements.txt`
+**Note:** If you need to reinstall packages later, run: `python3 -m pip install --user -r requirements.txt`
 
 ---
 
@@ -245,12 +245,20 @@ Whenever you make changes:
 ### Issue: "No module named 'pandas'" in Jupyter
 
 **Solution:**
-The packages need to be installed for the Python kernel Quarto uses:
+Install packages using the system Python:
 ```bash
-python3 -m pip install -r requirements.txt
+/usr/local/python/current/bin/python3 -m pip install -r requirements.txt --user
 ```
 
-Then restart your preview or re-run the cell.
+Or use this simpler command:
+```bash
+python3 -m pip install --user pandas matplotlib numpy seaborn plotly scikit-learn
+```
+
+After installation:
+1. Stop the preview (Ctrl+C in terminal)
+2. Run `quarto preview` again
+3. The packages should now be available
 
 ### Issue: Website isn't updating on GitHub Pages
 
