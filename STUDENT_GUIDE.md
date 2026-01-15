@@ -46,7 +46,7 @@ Once the Codespace opens:
 5. Check Quarto: `quarto check`
 6. You should see green checkmarks ✓ indicating everything is installed correctly
 
-**Note:** If you need to reinstall packages later, run: `pip install -r requirements.txt`
+**Note:** If you need to reinstall packages later, run: `python3 -m pip install -r requirements.txt`
 
 ---
 
@@ -241,6 +241,16 @@ Whenever you make changes:
 ---
 
 ## 🔧 Troubleshooting
+
+### Issue: "No module named 'pandas'" in Jupyter
+
+**Solution:**
+The packages need to be installed for the Python kernel Quarto uses:
+```bash
+python3 -m pip install -r requirements.txt
+```
+
+Then restart your preview or re-run the cell.
 
 ### Issue: Website isn't updating on GitHub Pages
 
