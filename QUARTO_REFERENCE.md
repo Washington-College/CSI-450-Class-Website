@@ -51,7 +51,7 @@ format: html
 
 ### Python
 ````markdown
-```{python}
+```{{python}}
 #| echo: true
 #| eval: true
 
@@ -63,7 +63,7 @@ print(df.head())
 
 ### R
 ````markdown
-```{r}
+```{{r}}
 #| echo: true
 #| eval: true
 
@@ -85,7 +85,7 @@ ggplot(mtcars, aes(x=wt, y=mpg)) +
 
 Example:
 ````markdown
-```{python}
+```{{python}}
 #| echo: true
 #| eval: false
 #| code-fold: true

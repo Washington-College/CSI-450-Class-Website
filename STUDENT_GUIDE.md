@@ -132,7 +132,7 @@ Blog posts are stored in the `posts/` directory. Each post should be in its own 
 ### Example Code Block in a Post
 
 ````markdown
-```{python}
+```{{python}}
 #| echo: true
 #| code-fold: false
 

@@ -22,14 +22,12 @@ Here are some key takeaways:
 
 Here's a simple code example:
 
-```{python}
-#| echo: true
-#| eval: false
-
+```python
+# Example code - set eval to true to run
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Your code here
+# Create sample data
 data = pd.DataFrame({
     'x': [1, 2, 3, 4, 5],
     'y': [2, 4, 6, 8, 10]
@@ -37,6 +35,8 @@ data = pd.DataFrame({
 
 plt.plot(data['x'], data['y'])
 plt.title('My First Plot')
+plt.xlabel('X values')
+plt.ylabel('Y values')
 plt.show()
 ```
 
