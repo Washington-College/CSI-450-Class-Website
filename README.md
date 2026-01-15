@@ -27,6 +27,7 @@ Your portfolio includes:
 - **`templates/`** - Blog post templates
 - **`_quarto.yml`** - Site configuration
 - **`styles.css`** - Custom styling
+- **`requirements.txt`** - Python packages (auto-installed)
 
 ## 🎨 Customization
 

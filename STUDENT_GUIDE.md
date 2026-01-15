@@ -39,9 +39,14 @@ The Codespace will automatically:
 
 Once the Codespace opens:
 
-1. Open the terminal (Terminal > New Terminal)
-2. Type: `quarto check`
-3. You should see green checkmarks ✓ indicating everything is installed correctly
+1. Wait for the automatic setup to complete (you'll see "Running postCreateCommand..." in the terminal)
+2. Python packages (pandas, matplotlib, etc.) will be installed automatically
+3. Open the terminal (Terminal > New Terminal) if not already open
+4. Verify installation: `python3 -c "import pandas, matplotlib; print('✓ Packages ready!')"`
+5. Check Quarto: `quarto check`
+6. You should see green checkmarks ✓ indicating everything is installed correctly
+
+**Note:** If you need to reinstall packages later, run: `pip install -r requirements.txt`
 
 ---
 
