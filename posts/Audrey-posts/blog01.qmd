@@ -1,0 +1,10 @@
+---
+Title: "Audrey's First Blog post!"
+Author: "Audrey MacNair"
+Date: "01-27-2026"
+Categories: [Practice!]
+---
+
+## Introduction
+
+Hopefully this works, I'd love to figure out how to use Github! Looking forward to learning something new! 
