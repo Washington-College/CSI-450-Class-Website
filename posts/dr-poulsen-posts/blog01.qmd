@@ -1,0 +1,10 @@
+---
+title: "Dr. Poulsen's Blog Post"
+author: "Dr. Poulsen"
+date: "2026-01-26"
+categories: [data science, getting started]
+---
+
+## Introduction
+
+I'm just practicing contributing to a collaborative project. You all should do this too. This is an edit.
