@@ -7,4 +7,4 @@ categories: [data science, getting started]
 
 ## Introduction
 
-I'm just practicing contributing to a collaborative project. You all should do this too.
+I'm just practicing contributing to a collaborative project. You all should do this too. This is an edit.
