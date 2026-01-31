@@ -11,4 +11,4 @@ page-layout: full
 title-block-banner: true
 ---
 
-Welcome to my blog! Here I share my thoughts on data science, ethics, and my practicum work.
+Starting my first blog! I'm excited to learn more about GitHub.
